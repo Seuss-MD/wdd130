@@ -1,33 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /*font*/
+    --paragraph-font: 'Montserrat',sans-serif, Helvetica, 
+}
+
 #background{
     background-color: #78C5D7;
 }
-#hero-msg h1,
-#hero-msg h4 {
-    text-align: center;
+#background {
+    height: 725px;
 }
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-#background {
-    height: 725px;
-}
 
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
 }
 
 nav a {
     text-align: center;
     color: #E6E6E6;
     text-decoration: none;
+    padding: 35px;
 }
 nav {
     text-align: center;
 }
 h2 {
     color: #E6E6E6;
+    margin: 0;
 }
 
 h4 {
@@ -41,6 +53,10 @@ main section {
 
 body {
     background-color: #134266; 
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#134266;
@@ -53,6 +69,11 @@ footer{
     background-color: #134266;
     color: #E6E6E6;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer a{
     color: #E6E6E6;
@@ -64,12 +85,24 @@ footer a:hover{
 footer p a:hover{
     text-decoration: underline;
 }
-
+main section img {
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px;
+}
 
 .book, .join{
     background-color: #FCE172;
     color: #134266;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #78C5D7;
@@ -77,16 +110,22 @@ footer p a:hover{
 }
 .msg{
     background-color: #78C5D7;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: black;
 }
 .msg p{
     color: black;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 .home-title{
     color: #E6E6E6;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .button-box {
     text-align: center;
@@ -96,4 +135,5 @@ footer p a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
